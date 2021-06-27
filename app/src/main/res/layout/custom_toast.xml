@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/custom_toast_id"
+    android:background="@null"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="60dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/custom_toast_drawable"
+        android:id="@+id/custom_toast_linear_layout_id"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_marginTop="2dp"
+            android:id="@+id/imageView3"
+            android:layout_height="17dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/information"
+            app:tint="@color/themeColor" />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/textViewCustom_toast"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/themeColor"
+            android:layout_weight="3"
+            android:text="TextView" />
+
+
+    </LinearLayout>
+</ScrollView>
